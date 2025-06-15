@@ -42,7 +42,7 @@ Parameters:
 - `userId`: Positive integer ID of the user
 
 Response:
-```json
+```js
 {
     "balance": number,
     "proof": Array<[string, 0|1]> // [hex-encoded string for each node, and node position bit
